@@ -1,0 +1,10 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    color: #CCCCCC;
+}
+
+header a {
+    color: #CCCCCC;
+    text-decoration: none;
+}
