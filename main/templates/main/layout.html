@@ -12,22 +12,29 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <a href="#">Nether Core</a>
-            </div>
-            <div class="navigation">
+        <div class="logo">
+            <a href="#"><img src="{% static "main/img/logo.png" %}" alt="Logo" height="32px" width="32px"></a>
+            <a href="#">Nether Core</a>
+        </div>
+        <div class="navigation">
+            <div class="links">
                 <a href="#">Converter</a>
+                <span>|</span>
                 <a href="#">Contacts</a>
             </div>
-        </nav>
+            <div class="account">
+                <a href="#">Log In</a>
+                <span>|</span>
+                <a href="#">Sign In</a>
+            </div>
+        </div>
     </header>
     <main>
         {% block content %}
         {% endblock %}
     </main>
     <footer>
-        <p>© This web application was made by Nether Core</p>
+        <span>© This web application was made by Nether Core</span>
     </footer>
 </body>
 </html>
