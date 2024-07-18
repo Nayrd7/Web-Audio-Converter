@@ -416,6 +416,7 @@ body {
     background: rgba(48, 48, 48, 0.7);
     backdrop-filter: blur(5px);
     border-radius: 30px 30px 20px 20px;
+    padding: 15px;
 }
 
 /*  HEADER STYLES START */
